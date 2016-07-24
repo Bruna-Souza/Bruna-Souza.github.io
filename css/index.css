@@ -1,0 +1,61 @@
+body{
+    font-family: 'Poiret One', cursive;
+    background-color: #eee;
+}
+p{
+    font-family: 'Kite One', sans-serif;
+}
+.secao{
+  
+  padding-bottom:300px;
+}
+.logo{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px #333;
+    color: white;
+}
+.navitem{
+    font-size:1.4em;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #333;
+}
+
+.navitem, h1,h2,h3,h4,p{
+
+    font-weight: bold;
+
+}
+.logo:hover,.navbar-default .logo,.navbar-default .navitem ,.navitem .active{
+    text-shadow:none;
+}
+
+.coverimg {
+
+  opacity: 1;
+  max-width: 100%;
+  max-height: 100%;
+  background: #F4D03F url(../img/cover.jpg) center 80%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.break{
+  background-color: #333;
+  width: 50%;
+  height: 3px;
+  margin: 0 auto;
+  margin-bottom:15px;
+
+}
+.minibreak{
+  background-color: #555;
+  width: 30%;
+  height: 2px;
+  margin: 0 auto;
+  margin-bottom:15px;
+}
+.cabecalhosecao{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
