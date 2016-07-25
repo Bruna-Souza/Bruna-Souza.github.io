@@ -6,11 +6,14 @@ p{
     font-family: 'Kite One', sans-serif;
 }
 .secao{
-  
-  padding-bottom:300px;
+
+  padding-bottom:150px;
+}
+.secao p{
+  margin-bottom: 50px;
 }
 .logo{
-    font-family: 'Architects Daughter', cursive;
+    font-weight: bold;
     font-size: 2.5em;
     text-shadow: 2px 2px 4px #333;
     color: white;
@@ -58,4 +61,64 @@ p{
 .cabecalhosecao{
     margin-top: 100px;
     margin-bottom: 100px;
+}
+.bu{
+  max-height: 200px;
+  -webkit-transition: all 1s;
+  -webkit-transition-timing-function: ease;
+  transition: all 1s;
+  transition-timing-function: ease;
+  border: 4px solid transparent;
+}
+#bru:hover .bu {
+    border: 4px solid #f8f8f8;
+}
+.smGlobalBtn{ /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border:2px solid #ddd; /* add border to the buttons */
+    box-shadow: 0 3px 3px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 27px;
+    -moz-border-radius:27px;
+    -webkit-border-radius:27px;
+}
+/* facebook button class*/
+.facebookBtn{
+    background: #4060A5;
+}
+
+.facebookBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+}
+
+.facebookBtn:hover{
+    color: #4060A5;
+    background: #fff;
+    border-color: #4060A5; /* change the border color on mouse hover */
+}
+/* linkedin button class*/
+.linkedinBtn{
+    background: #0094BC;
+}
+
+.linkedinBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0e1"; /* add linkedin icon */
+}
+
+.linkedinBtn:hover{
+      color: #0094BC;
+      background: #fff;
+      border-color: #0094BC;
 }
