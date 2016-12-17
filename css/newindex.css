@@ -249,6 +249,16 @@ background-image: linear-gradient(to right, #F62459, #ffea00);
   margin-bottom:0px;
 
 }
+.separador{
+  
+  background-color:white;
+  width: 100%;
+  height: 8px;
+  margin: 0 auto;
+  margin-bottom:0px;
+
+
+}
 
 .smGlobalBtn{ /* global button class */
     display: inline-block;
