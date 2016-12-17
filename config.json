@@ -162,19 +162,19 @@
     "@navbar-default-toggle-hover-bg": "#ddd",
     "@navbar-default-toggle-icon-bar-bg": "@navbar-default-link-hover-color",
     "@navbar-default-toggle-border-color": "#ddd",
-    "@navbar-inverse-color": "#fff",
+    "@navbar-inverse-color": "#333",
     "@navbar-inverse-bg": "transparent",
     "@navbar-inverse-border": "@navbar-inverse-bg",
-    "@navbar-inverse-link-color": "#fff",
+    "@navbar-inverse-link-color": "#333",
     "@navbar-inverse-link-hover-color": "#fff",
-    "@navbar-inverse-link-hover-bg": "rgba(51,51,51,0.7)",
+    "@navbar-inverse-link-hover-bg": "#DB0A5B",
     "@navbar-inverse-link-active-color": "#fff",
-    "@navbar-inverse-link-active-bg": "rgba(210,77,87,0.7)",
+    "@navbar-inverse-link-active-bg": "#DB0A5B",
     "@navbar-inverse-link-disabled-color": "#444",
     "@navbar-inverse-link-disabled-bg": "transparent",
-    "@navbar-inverse-brand-color": "#fff",
+    "@navbar-inverse-brand-color": "#333",
     "@navbar-inverse-brand-hover-color": "#fff",
-    "@navbar-inverse-brand-hover-bg": "rgba(51,51,51,0.7)",
+    "@navbar-inverse-brand-hover-bg": "#DB0A5B",
     "@navbar-inverse-toggle-hover-bg": "#333",
     "@navbar-inverse-toggle-icon-bar-bg": "#fff",
     "@navbar-inverse-toggle-border-color": "#333",
@@ -431,5 +431,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=889d712418520b38934e75a937c21ac0"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=1222fe9da4096050b01a88e738197ddf"
 }

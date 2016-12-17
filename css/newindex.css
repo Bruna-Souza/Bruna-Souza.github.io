@@ -1,8 +1,9 @@
 body{
-  padding-top: 80px;
+  padding-top: 20px;
   margin-top: 0px;
   font-family: 'Poiret One', sans-serif;
-  background-color: #263238;
+  background-color: #fff;
+
 }
 p{
     font-family: 'Kite One', sans-serif;
@@ -15,9 +16,13 @@ p{
 .logo{
     font-weight: bold;
     font-size: 2.5em;
-    text-shadow: 2px 2px 4px #333;
-    color: white;
+    color: #333;
 }
+.logo:hover{
+  text-decoration: none;
+  color:#DB0A5B;
+}
+
 .navitem{
     font-size:1.4em;
     font-weight: bold;
@@ -32,6 +37,15 @@ p{
 .logo:hover,.navbar-default .logo,.navbar-default .navitem ,.navitem .active{
     text-shadow:none;
 }
+.ibagem{
+  width: 100%;
+}
+.quadrado{
+  background-color: #6C7A89;
+  color:white;
+  padding:10px;
+}
+
 /*Navbar End*/
 .secao{
   margin-bottom: 75px;
@@ -217,15 +231,80 @@ p{
 
 }
 .break{
-  background-color: #333;
+  background-color: white;
   width: 50%;
   height: 3px;
   margin: 0 auto;
-  margin-bottom:75px;
+  margin-bottom:50px;
+
+}
+.hugebreak{
+  background-color: #F62459;
+background-image: -webkit-linear-gradient(left, #F62459, #ffea00);
+background-image: -o-linear-gradient(left, #F62459, #ffea00);
+background-image: linear-gradient(to right, #F62459, #ffea00);
+  width: 100%;
+  height: 8px;
+  margin: 0 auto;
+  margin-bottom:0px;
 
 }
 
+.smGlobalBtn{ /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border:2px solid #ddd; /* add border to the buttons */
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 27px;
+    -moz-border-radius:27px;
+    -webkit-border-radius:27px;
+}
+/* facebook button class*/
+.facebookBtn{
+    background-color: #4060A5;
+}
 
+.facebookBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+}
+
+.facebookBtn:hover{
+    color: #4060A5;
+    background: #fff;
+    border-color: #4060A5; /* change the border color on mouse hover */
+}
+/* linkedin button class*/
+.linkedinBtn{
+    background: #0094BC;
+}
+
+.linkedinBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0e1"; /* add linkedin icon */
+}
+
+.linkedinBtn:hover{
+      color: #0094BC;
+      background: #fff;
+      border-color: #0094BC;
+}
+/* E-mail */
+.email{
+  color:white;
+}
+.email:hover{
+  color: white;
+}
 
 .organizacao{
   max-height: 180px;
