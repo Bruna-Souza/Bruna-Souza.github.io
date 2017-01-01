@@ -108,23 +108,43 @@ p{
   display: inline-block;
   padding:2px;
 }
-
-
-
-
-.org{
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: 50px;
+.tint {
+  position: relative;
+  float: left;
+  cursor: pointer;
+  -moz-transition: background .3s linear;
+  -webkit-transition: background .3s linear;
+  -o-transition: background .3s linear;
+  transition: background .3s linear;
 }
-/*teste*/
+
+.tint:before {
+  
+  background: none;
+}
+
+.tint:hover:before {
+  
+
+  content: "Bruna Souza";
+  color:white;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,255,255, 0.5);
+  
+  
+}
+
 /* navbar */
 .content-block-one {
   padding: 30px;
   margin-bottom: 0px;
   color: inherit;
-  background-color: #ECF0F1;
+  background-color: #fafbfc;
 }
 .content-block-one h1,
 .content-block-one .h1 {
@@ -251,7 +271,7 @@ background-image: linear-gradient(to right, #bdbdbd, #1a237e);
 .separador{
   
   background-color:white;
-  width: 100%;
+  width: auto;
   height: 8px;
   margin: 0 auto;
   margin-bottom:0px;
@@ -261,7 +281,7 @@ background-image: linear-gradient(to right, #bdbdbd, #1a237e);
 .bgseparador{
   
   background-color:white;
-  width: 100%;
+  width: auto;
   height: 20fqpx;
   margin: 0 auto;
   margin-bottom:0px;
@@ -336,53 +356,14 @@ background-image: linear-gradient(to right, #bdbdbd, #1a237e);
 
 
 
-.sponsorarea{
-  background-color: #2ECC71;
-  color:#333;
-}
-.supportarea{
-  padding-top: 15px;
-  padding-bottom: 50px;
-  padding-left: auto;
-  padding-right: auto;
-}
-.promoter{
-  display: inline-block;
-  padding:15px;
-}
-.promoter img{
-  max-height: 115px;
-}
-.sponsor {
-  max-height:100px;
-  max-width: 200px;
-  width:250px;
-  margin-bottom: 10px;
-}
+
 .linha{
   margin-top: 10px;
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
 }
-.platinum a:hover{
-  border-color: #e5e4e2;
-}
-.gold a:hover{
-  border-color:#ffd700;
-}
-.silver a:hover{
-  border-color:#BDC3C7;
-}
-/*.bronze{
-    border-color: #cd7f32;
-}*/
-.bronze{
-  max-height: 50px;
-}
-.promotionarea{
-  background-color: #F4D03F;
-}
+
 
 .animation-element{
 	opacity: 0;
@@ -408,3 +389,63 @@ background-image: linear-gradient(to right, #bdbdbd, #1a237e);
   transform: translate3d(0px, 0px, 0px);
 
 }
+
+/* Legenda sobre foto */
+
+  
+.caption:hover {
+    width:100%;
+    bottom: .3rem;
+    position: absolute;
+    padding:5px;
+    background:rgb(34, 34, 34);
+}
+
+.caption {
+        width:100%;
+        bottom: .3rem;
+        position: absolute;
+        background:rgba(34, 34, 34,0.4);
+        border: 0 none;
+        box-shadow: none;
+        margin:0;
+        padding:0;
+        -webkit-appearance: button;
+      cursor: pointer;
+        
+    }
+
+.thumb {
+        border: 0 none;
+        box-shadow: none;
+        margin:0;
+        padding:0;
+    }
+    .caption h4 {
+        color: #fff;
+        -webkit-font-smoothing: antialiased;
+    }
+    /* Fim legenda sobre foto */
+    .modal-content, .modal-header{
+      background: none;
+      box-shadow: none;
+      border: none;
+    }
+    .fecha{
+      color:rgba(255,255,255,0.7);
+      font-size: 8rem;
+      background: none;
+      border:none;
+      margin-bottom: 0px;
+      margin-top: 0px; 
+      padding-bottom: 0px;
+      padding-top: 0px; 
+    }
+    .fecha:hover{
+      color:white;
+      border:none;
+    }
+    .it{
+      width:100%;
+      height: auto;
+    }

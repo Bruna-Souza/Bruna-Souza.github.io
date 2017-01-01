@@ -33,7 +33,7 @@ p{
     text-shadow:none;
 }
 
-.coverimg {
+/*.coverimg {
 
   opacity: 1;
   max-width: 100%;
@@ -42,7 +42,7 @@ p{
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-}
+}*/
 .break{
   background-color: #333;
   width: 50%;
@@ -62,7 +62,7 @@ p{
     margin-top: 100px;
     margin-bottom: 100px;
 }
-.
+
 .smGlobalBtn{ /* global button class */
     display: inline-block;
     position: relative;
@@ -112,3 +112,4 @@ p{
       background: #fff;
       border-color: #0094BC;
 }
+
